@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>游景林hw2</title>
+    <style>
+        body {
+            background-color: #0090CE;
+
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: auto 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            background-color: greenyellow;
+            padding: 5px;
+            width: 75px;
+        }
+
+        nav ul li a:link {
+            color: blue;
+        }
+
+        nav ul li a:visited {
+            color: purple;
+        }
+
+        nav ul li a:hover {
+            color: #FF00FF;
+        }
+
+        nav ul li a:active {
+            color: green;
+        }
+
+        .table-back {
+            border-collapse: collapse;
+            width: 400px;
+            height: 100px;
+
+        }
+
+        .table-back th,
+        .table-back td {
+            width: 200px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .table-back th {
+            background-color: green;
+            color: white;
+        }
+
+        td:nth-child(2n-1) {
+            text-align: left;
+            padding: 15px;
+            color: darkmagenta;
+        }
+
+        td:nth-child(2n) {
+            text-align: left;
+            padding: 15px;
+            color: darkred;
+        }
+
+        p {
+            color: blue;
+        }
+
+        .a {
+            margin: 10px;
+            padding: 20px;
+            height: 300px;
+            position: relative;
+        }
+
+        .a img {
+            float: left;
+            box-shadow: darkblue;
+            -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .5));
+            filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .5));
+            border-radius: 25px;
+            margin-right: 76px;
+        }
+
+        .bottom {
+
+            position: absolute;
+            bottom: 1px;
+            left: 150px;
+            font-size: large;
+        }
+
+        footer {
+            clear: both;
+            display: block;
+            background-color: wheat;
+            color: darkred;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://news.qq.com/">要闻</a></li>
+                <li><a href="https://new.qq.com/ch/ent/">娱乐</a></li>
+                <li><a href="https://new.qq.com/ch/finance/">财经</a></li>
+                <li><a href="https://new.qq.com/ch/tech/">科技</a></li>
+                <li><a href="https://new.qq.com/ch/world/">国际</a></li>
+                <li><a href="https://new.qq.com/ch/milite/">军事</a></li>
+                <li><a href="https://new.qq.com/ch/fashion/">时尚</a></li>
+                <li><a href="https://new.qq.com/ch/games/">游戏</a></li>
+            </ul>
+        </nav>
+        <br><br>
+    </header>
+    <main>
+        <table class="table-back">
+            <thead>
+                <th>name</th>
+                <th>telephone</th>
+                <th>province</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice</td>
+                    <td>654321</td>
+                    <td>jiangxi</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>123456</td>
+                    <td>guangdong</td>
+                </tr>
+                <tr>
+                    <td>Amy</td>
+                    <td>2345678</td>
+                    <td>fujian</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br><br>
+        <div class="a">
+            <img width="350px" height="250px" src="https://youimg1.c-ctrip.com/target/100c1a0000019dy249D55.jpg">
+            <img width="350px" height="250px"src="https://tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/141b96626ef4488039bf1a7c744f17df.jpg">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;八一起义纪念塔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;秋水广场
+            </p>
+            <img width="350px" height="250px"src="https://ts1.cn.mm.bing.net/th/id/R-C.509ae8e78cba45b444054ced11aaf4e6?rik=CIEdEZfHg5fQ9g&riu=http%3a%2f%2fpic4.40017.cn%2fscenery%2fdestination%2f2016%2f11%2f23%2f17%2fY5cGZ6.jpg&ehk=NERYveROlFMPOgxL8Gf5E6XgQvXW9TE0wiGS6gGVRp8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+            <img width="350px" height="250px"src="https://ts1.cn.mm.bing.net/th/id/R-C.6a86f5d60b34c23c18df2923744918a0?rik=dE5q5sk5pW0tVQ&riu=http%3a%2f%2fpic5.40017.cn%2f03%2f000%2f15%2f44%2frB5oQFzOTJ-AENPQAAGuUMqCufU596.jpg&ehk=ykF9KvW81WnA644HXxveYrK60fecnW3Z9bDe0QdLqhA%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;滕王阁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南昌之星摩天轮
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </main>
+    <footer>
+        制作：游景林 日期：2022年11月25日 （定位还不太会，只能先打空格了）
+    </footer>
+</body>
+
+</html>
